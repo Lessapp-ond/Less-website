@@ -10,7 +10,6 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: 'Less-app | Smarter Scrolling',
   description: 'Learn useful things in 20 seconds with smart cards. Turn your scroll time into knowledge.',
-  generator: 'v0.app',
   icons: {
     icon: [
       {
@@ -27,6 +26,27 @@ export const metadata: Metadata = {
       },
     ],
     apple: '/apple-icon.png',
+  },
+  openGraph: {
+    title: 'Less-app | Smarter Scrolling',
+    description: 'Learn useful things in 20 seconds with smart cards. Turn your scroll time into knowledge.',
+    url: 'https://less-app.com',
+    siteName: 'Less-app',
+    images: [
+      {
+        url: '/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'Less-app Logo',
+      },
+    ],
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Less-app | Smarter Scrolling',
+    description: 'Learn useful things in 20 seconds with smart cards. Turn your scroll time into knowledge.',
+    images: ['/og-image.png'],
   },
 }
 
