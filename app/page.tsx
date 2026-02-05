@@ -4,12 +4,13 @@ import { VerifiedSection } from "@/components/verified-section"
 import { HowItWorks } from "@/components/how-it-works"
 import { ExamplesSection } from "@/components/examples-section"
 import { DownloadSection } from "@/components/download-section"
+import { FAQSection } from "@/components/faq-section"
 import { Footer } from "@/components/footer"
 import { LanguageProvider } from "@/lib/language-context"
 
 export default function Home() {
   return (
-    <LanguageProvider>
+    <LanguageProvider defaultLocale="en">
       <main className="min-h-screen bg-background">
         <Header />
         <HeroSection />
@@ -17,6 +18,7 @@ export default function Home() {
         <HowItWorks />
         <ExamplesSection />
         <DownloadSection />
+        <FAQSection />
         <Footer />
       </main>
     </LanguageProvider>
