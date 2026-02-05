@@ -1,0 +1,16 @@
+{
+  "name": "Less - Learn in 20 Seconds",
+  "short_name": "Less",
+  "description": "Learn useful things in 20 seconds with smart cards",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/apple-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
