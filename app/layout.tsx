@@ -99,9 +99,6 @@ export const metadata: Metadata = {
     },
   },
   category: 'education',
-  verification: {
-    google: 'YOUR_GOOGLE_VERIFICATION_CODE',
-  },
 }
 
 // JSON-LD Structured Data
