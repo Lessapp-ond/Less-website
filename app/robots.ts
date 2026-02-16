@@ -6,6 +6,7 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: '*',
         allow: '/',
+        disallow: ['/search/', '/*.php'],
       },
     ],
     sitemap: 'https://less-app.com/sitemap.xml',
