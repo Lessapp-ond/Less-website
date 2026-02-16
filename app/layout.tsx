@@ -15,6 +15,10 @@ export const metadata: Metadata = {
   },
   description: 'Free educational app to learn useful things in 20 seconds. Smart cards with 3 key points on psychology, history, science & more. Available on iOS & Android. No account required.',
   keywords: [
+    'less app',
+    'less-app',
+    'less learning',
+    'less apprendre',
     'learning app',
     'educational app',
     'microlearning',

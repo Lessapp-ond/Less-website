@@ -1,6 +1,7 @@
 "use client"
 
 import { useLanguage } from "@/lib/language-context"
+import Image from "next/image"
 
 export function DownloadSection() {
   const { t } = useLanguage()
@@ -17,45 +18,20 @@ export function DownloadSection() {
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-12 md:gap-20">
           {/* App Store */}
-          <div className="flex flex-col items-center">
-            <div className="w-40 h-40 bg-card border border-border rounded-2xl flex items-center justify-center mb-4">
-              <svg
-                viewBox="0 0 100 100"
-                className="w-32 h-32"
-                fill="currentColor"
-              >
-                <rect x="10" y="10" width="25" height="25" />
-                <rect x="65" y="10" width="25" height="25" />
-                <rect x="10" y="65" width="25" height="25" />
-                <rect x="15" y="15" width="15" height="15" fill="white" />
-                <rect x="70" y="15" width="15" height="15" fill="white" />
-                <rect x="15" y="70" width="15" height="15" fill="white" />
-                <rect x="20" y="20" width="5" height="5" />
-                <rect x="75" y="20" width="5" height="5" />
-                <rect x="20" y="75" width="5" height="5" />
-                <rect x="40" y="10" width="5" height="5" />
-                <rect x="50" y="10" width="5" height="5" />
-                <rect x="40" y="20" width="5" height="5" />
-                <rect x="50" y="25" width="5" height="5" />
-                <rect x="45" y="30" width="5" height="5" />
-                <rect x="10" y="40" width="5" height="5" />
-                <rect x="20" y="45" width="5" height="5" />
-                <rect x="30" y="40" width="5" height="5" />
-                <rect x="40" y="40" width="20" height="20" />
-                <rect x="45" y="45" width="10" height="10" fill="white" />
-                <rect x="65" y="40" width="5" height="5" />
-                <rect x="75" y="45" width="5" height="5" />
-                <rect x="85" y="40" width="5" height="5" />
-                <rect x="40" y="65" width="5" height="5" />
-                <rect x="50" y="70" width="5" height="5" />
-                <rect x="45" y="80" width="5" height="5" />
-                <rect x="55" y="85" width="5" height="5" />
-                <rect x="65" y="65" width="5" height="5" />
-                <rect x="75" y="70" width="5" height="5" />
-                <rect x="70" y="80" width="10" height="5" />
-                <rect x="85" y="75" width="5" height="5" />
-                <rect x="80" y="85" width="10" height="5" />
-              </svg>
+          <a
+            href="https://apps.apple.com/app/less-apprendre-chaque-jour/id6744870859"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex flex-col items-center group"
+          >
+            <div className="w-40 h-40 bg-white rounded-2xl flex items-center justify-center mb-4 p-2 group-hover:scale-105 transition-transform">
+              <Image
+                src="/qr-appstore.png"
+                alt="QR Code App Store"
+                width={144}
+                height={144}
+                className="rounded-lg"
+              />
             </div>
             <div className="flex items-center gap-2 mb-2">
               <svg
@@ -68,46 +44,21 @@ export function DownloadSection() {
               <span className="font-semibold text-foreground">App Store</span>
             </div>
             <p className="text-sm text-muted-foreground">iOS 14.0+</p>
-          </div>
+          </a>
 
-          {/* Play Store */}
-          <div className="flex flex-col items-center">
+          {/* Play Store - Coming Soon */}
+          <div className="flex flex-col items-center opacity-50">
             <div className="w-40 h-40 bg-card border border-border rounded-2xl flex items-center justify-center mb-4">
-              <svg
-                viewBox="0 0 100 100"
-                className="w-32 h-32"
-                fill="currentColor"
-              >
-                <rect x="10" y="10" width="25" height="25" />
-                <rect x="65" y="10" width="25" height="25" />
-                <rect x="10" y="65" width="25" height="25" />
-                <rect x="15" y="15" width="15" height="15" fill="white" />
-                <rect x="70" y="15" width="15" height="15" fill="white" />
-                <rect x="15" y="70" width="15" height="15" fill="white" />
-                <rect x="20" y="20" width="5" height="5" />
-                <rect x="75" y="20" width="5" height="5" />
-                <rect x="20" y="75" width="5" height="5" />
-                <rect x="45" y="10" width="5" height="5" />
-                <rect x="40" y="15" width="5" height="5" />
-                <rect x="50" y="20" width="5" height="5" />
-                <rect x="45" y="30" width="10" height="5" />
-                <rect x="10" y="45" width="5" height="5" />
-                <rect x="25" y="40" width="5" height="5" />
-                <rect x="30" y="50" width="5" height="5" />
-                <rect x="40" y="40" width="20" height="20" />
-                <rect x="45" y="45" width="10" height="10" fill="white" />
-                <rect x="70" y="40" width="5" height="5" />
-                <rect x="80" y="50" width="5" height="5" />
-                <rect x="85" y="45" width="5" height="5" />
-                <rect x="45" y="65" width="5" height="5" />
-                <rect x="55" y="70" width="5" height="5" />
-                <rect x="40" y="80" width="5" height="5" />
-                <rect x="50" y="85" width="5" height="5" />
-                <rect x="70" y="65" width="5" height="5" />
-                <rect x="80" y="70" width="5" height="5" />
-                <rect x="65" y="80" width="10" height="5" />
-                <rect x="80" y="80" width="10" height="10" />
-              </svg>
+              <div className="text-center text-muted-foreground">
+                <svg
+                  className="w-12 h-12 mx-auto mb-2"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 01-.61-.92V2.734a1 1 0 01.609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.198l2.807 1.626a1 1 0 010 1.73l-2.808 1.626L15.206 12l2.492-2.491zM5.864 2.658L16.8 8.99l-2.302 2.302-8.634-8.634z" />
+                </svg>
+                <span className="text-sm font-medium">{t.download.comingSoon}</span>
+              </div>
             </div>
             <div className="flex items-center gap-2 mb-2">
               <svg
