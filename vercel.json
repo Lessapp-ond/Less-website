@@ -1,17 +1,5 @@
 {
-  "redirects": [
-    {
-      "source": "/:path*",
-      "has": [
-        {
-          "type": "host",
-          "value": "www.less-app.com"
-        }
-      ],
-      "destination": "https://less-app.com/:path*",
-      "permanent": true
-    }
-  ],
+  "redirects": [],
   "rewrites": [],
   "headers": [
     {
