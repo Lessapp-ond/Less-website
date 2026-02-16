@@ -86,6 +86,7 @@ export const translations = {
       title: "Start learning",
       subtitle:
         "Available for free on iOS and Android. Scan the QR code to download.",
+      comingSoon: "Coming soon",
     },
     card: {
       whyUseful: "Why it matters",
@@ -225,6 +226,7 @@ export const translations = {
       title: "Empieza a aprender",
       subtitle:
         "Disponible gratis en iOS y Android. Escanea el código QR para descargar.",
+      comingSoon: "Próximamente",
     },
     card: {
       whyUseful: "Por qué es útil",
@@ -364,6 +366,7 @@ export const translations = {
       title: "Commencez à apprendre",
       subtitle:
         "Disponible gratuitement sur iOS et Android. Scannez le QR code pour télécharger.",
+      comingSoon: "Bientôt disponible",
     },
     card: {
       whyUseful: "Pourquoi c'est utile",
