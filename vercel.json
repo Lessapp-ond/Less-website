@@ -1,0 +1,15 @@
+{
+  "redirects": [],
+  "rewrites": [],
+  "headers": [
+    {
+      "source": "/app-ads.txt",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/plain"
+        }
+      ]
+    }
+  ]
+}

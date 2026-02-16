@@ -98,9 +98,12 @@ export const metadata: Metadata = {
     canonical: 'https://less-app.com',
     languages: {
       'en': 'https://less-app.com',
-      'fr': 'https://less-app.com',
-      'es': 'https://less-app.com',
+      'fr': 'https://less-app.com/fr',
+      'es': 'https://less-app.com/es',
     },
+  },
+  verification: {
+    google: 'YOUR_GOOGLE_VERIFICATION_CODE',
   },
   category: 'education',
 }
