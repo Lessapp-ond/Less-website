@@ -19,7 +19,7 @@ export function DownloadSection() {
         <div className="flex flex-col sm:flex-row items-center justify-center gap-12 md:gap-20">
           {/* App Store */}
           <a
-            href="https://apps.apple.com/app/less-apprendre-chaque-jour/id6744870859"
+            href="https://apps.apple.com/app/id6758305141"
             target="_blank"
             rel="noopener noreferrer"
             className="flex flex-col items-center group"
