@@ -46,19 +46,21 @@ export function DownloadSection() {
             <p className="text-sm text-muted-foreground">iOS 14.0+</p>
           </a>
 
-          {/* Play Store - Coming Soon */}
-          <div className="flex flex-col items-center opacity-50">
-            <div className="w-40 h-40 bg-card border border-border rounded-2xl flex items-center justify-center mb-4">
-              <div className="text-center text-muted-foreground">
-                <svg
-                  className="w-12 h-12 mx-auto mb-2"
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                >
-                  <path d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 01-.61-.92V2.734a1 1 0 01.609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.198l2.807 1.626a1 1 0 010 1.73l-2.808 1.626L15.206 12l2.492-2.491zM5.864 2.658L16.8 8.99l-2.302 2.302-8.634-8.634z" />
-                </svg>
-                <span className="text-sm font-medium">{t.download.comingSoon}</span>
-              </div>
+          {/* Play Store */}
+          <a
+            href="https://play.google.com/store/apps/details?id=com.lessapp.less"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex flex-col items-center group"
+          >
+            <div className="w-40 h-40 bg-white rounded-2xl flex items-center justify-center mb-4 p-2 group-hover:scale-105 transition-transform">
+              <Image
+                src="/qr-playstore.png"
+                alt="QR Code Google Play"
+                width={144}
+                height={144}
+                className="rounded-lg"
+              />
             </div>
             <div className="flex items-center gap-2 mb-2">
               <svg
@@ -71,7 +73,7 @@ export function DownloadSection() {
               <span className="font-semibold text-foreground">Google Play</span>
             </div>
             <p className="text-sm text-muted-foreground">Android 8.0+</p>
-          </div>
+          </a>
         </div>
       </div>
     </section>
