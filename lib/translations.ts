@@ -8,43 +8,43 @@ export const translations = {
       download: "Download",
     },
     hero: {
-      tagline: "Smarter scrolling",
+      tagline: "Understand the world",
       description:
-        "Learn useful things in 20 seconds. Simple cards, 3 key points, and why it matters.",
+        "One card, one idea, 20 seconds. Understand why the world is the way it is — without the noise.",
       downloadApp: "Download the app",
       seeExamples: "See examples",
     },
     verified: {
-      title: "Sharpen your mind",
+      title: "See the world differently",
       description:
-        "Each card is designed to make you think differently. Not random trivia, but real insights that challenge how you see the world.",
-      badge1: "See differently",
+        "Each card unlocks a real insight — about history, society, science, or how people think. Not trivia. The kind of understanding that changes how you see things.",
+      badge1: "See connections",
       badge2: "Think deeper",
       badge3: "Question more",
     },
     howItWorks: {
       title: "Simple by design",
-      subtitle: "20 seconds to learn. No endless courses.",
+      subtitle: "20 seconds. One idea. A new way to see.",
       steps: [
         {
           title: "Scroll",
           description:
-            "Browse your card feed. Each card teaches you something new.",
+            "Browse your card feed. Each card is a window into how the world actually works.",
         },
         {
           title: "3 points, no more",
           description:
-            "The essentials in 3 clear points. No fluff, just what matters.",
+            "The essentials in 3 clear points. No fluff, just what changes your understanding.",
         },
         {
           title: "Understand why",
           description:
-            'Each card explains "why it matters". Knowledge makes sense.',
+            "Each card answers the real question: why does this matter? Knowledge that sticks.",
         },
       ],
     },
     examples: {
-      title: "Cards that teach",
+      title: "Ideas that open your eyes",
       subtitle: "Real examples from the app",
       cards: [
         {
@@ -83,7 +83,7 @@ export const translations = {
       ],
     },
     download: {
-      title: "Start learning",
+      title: "Start understanding",
       subtitle:
         "Available for free on iOS and Android. Scan the QR code to download.",
       comingSoon: "Coming soon",
@@ -93,7 +93,7 @@ export const translations = {
       learned: "I learned something",
     },
     footer: {
-      tagline: "Smarter scrolling.",
+      tagline: "Understand the world.",
       privacy: "Privacy",
     },
     privacy: {
@@ -148,43 +148,43 @@ export const translations = {
       download: "Descargar",
     },
     hero: {
-      tagline: "Smarter scrolling",
+      tagline: "Entiende el mundo",
       description:
-        "Aprende cosas útiles en 20 segundos. Tarjetas simples, 3 puntos clave, y por qué es importante.",
+        "Una tarjeta, una idea, 20 segundos. Entiende por qué el mundo es como es — sin el ruido.",
       downloadApp: "Descargar la app",
       seeExamples: "Ver ejemplos",
     },
     verified: {
-      title: "Afila tu mente",
+      title: "Ve el mundo diferente",
       description:
-        "Cada tarjeta está diseñada para hacerte pensar diferente. No curiosidades al azar, sino ideas reales que desafían tu forma de ver el mundo.",
-      badge1: "Ver diferente",
+        "Cada tarjeta desbloquea una idea real — sobre historia, sociedad, ciencia, o cómo piensa la gente. No curiosidades. El tipo de comprensión que cambia tu perspectiva.",
+      badge1: "Ver conexiones",
       badge2: "Pensar más",
       badge3: "Cuestionar más",
     },
     howItWorks: {
       title: "Simple por diseño",
-      subtitle: "20 segundos para aprender. Sin cursos interminables.",
+      subtitle: "20 segundos. Una idea. Una nueva perspectiva.",
       steps: [
         {
           title: "Desliza",
           description:
-            "Navega por tu feed de tarjetas. Cada tarjeta te enseña algo nuevo.",
+            "Navega por tu feed de tarjetas. Cada tarjeta es una ventana a cómo funciona el mundo de verdad.",
         },
         {
           title: "3 puntos, no más",
           description:
-            "Lo esencial en 3 puntos claros. Sin rodeos, solo lo importante.",
+            "Lo esencial en 3 puntos claros. Sin rodeos, solo lo que cambia tu comprensión.",
         },
         {
           title: "Entiende el porqué",
           description:
-            'Cada tarjeta explica "por qué es útil". El conocimiento cobra sentido.',
+            "Cada tarjeta responde la pregunta real: ¿por qué importa esto? Conocimiento que se queda.",
         },
       ],
     },
     examples: {
-      title: "Tarjetas que enseñan",
+      title: "Ideas que abren los ojos",
       subtitle: "Ejemplos reales de la app",
       cards: [
         {
@@ -223,7 +223,7 @@ export const translations = {
       ],
     },
     download: {
-      title: "Empieza a aprender",
+      title: "Empieza a entender",
       subtitle:
         "Disponible gratis en iOS y Android. Escanea el código QR para descargar.",
       comingSoon: "Próximamente",
@@ -233,7 +233,7 @@ export const translations = {
       learned: "Aprendí algo",
     },
     footer: {
-      tagline: "Smarter scrolling.",
+      tagline: "Entiende el mundo.",
       privacy: "Privacidad",
     },
     privacy: {
@@ -288,43 +288,43 @@ export const translations = {
       download: "Télécharger",
     },
     hero: {
-      tagline: "Smarter scrolling",
+      tagline: "Comprendre le monde",
       description:
-        "Apprenez des choses utiles en 20 secondes. Des cartes simples, 3 points clés, et pourquoi c'est important.",
+        "Une carte, une idée, 20 secondes. Comprenez pourquoi le monde est comme il est — sans le bruit.",
       downloadApp: "Télécharger l'app",
       seeExamples: "Voir des exemples",
     },
     verified: {
-      title: "Affûtez votre esprit",
+      title: "Voir le monde autrement",
       description:
-        "Chaque carte est conçue pour vous faire penser autrement. Pas des anecdotes au hasard, mais de vraies idées qui bousculent votre vision du monde.",
-      badge1: "Voir autrement",
+        "Chaque carte déverrouille une vraie idée — sur l'histoire, la société, les sciences, ou comment les gens pensent. Pas des anecdotes. Le genre de compréhension qui change votre regard.",
+      badge1: "Voir les liens",
       badge2: "Penser plus loin",
       badge3: "Questionner plus",
     },
     howItWorks: {
       title: "Simple par design",
-      subtitle: "20 secondes pour apprendre. Pas de cours interminables.",
+      subtitle: "20 secondes. Une idée. Un nouveau regard.",
       steps: [
         {
           title: "Scrollez",
           description:
-            "Parcourez votre feed de cartes. Chaque carte vous apprend quelque chose de nouveau.",
+            "Parcourez votre feed de cartes. Chaque carte est une fenêtre sur comment le monde fonctionne vraiment.",
         },
         {
           title: "3 points, pas plus",
           description:
-            "L'essentiel en 3 points clairs. Pas de bla-bla, juste ce qui compte.",
+            "L'essentiel en 3 points clairs. Pas de bla-bla, juste ce qui change votre compréhension.",
         },
         {
           title: "Comprenez le pourquoi",
           description:
-            'Chaque carte explique "pourquoi c\'est utile". La connaissance prend du sens.',
+            "Chaque carte répond à la vraie question : pourquoi est-ce important ? Une connaissance qui reste.",
         },
       ],
     },
     examples: {
-      title: "Des cartes qui enseignent",
+      title: "Des idées qui ouvrent les yeux",
       subtitle: "Exemples réels de l'app",
       cards: [
         {
@@ -363,7 +363,7 @@ export const translations = {
       ],
     },
     download: {
-      title: "Commencez à apprendre",
+      title: "Commencez à comprendre",
       subtitle:
         "Disponible gratuitement sur iOS et Android. Scannez le QR code pour télécharger.",
       comingSoon: "Bientôt disponible",
@@ -373,7 +373,7 @@ export const translations = {
       learned: "J'ai appris quelque chose",
     },
     footer: {
-      tagline: "Smarter scrolling.",
+      tagline: "Comprendre le monde.",
       privacy: "Confidentialité",
     },
     privacy: {
