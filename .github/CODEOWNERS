@@ -1,0 +1,11 @@
+# These files require manual approval before merging
+# Any PR that touches icons/favicon will be blocked until reviewed
+
+/public/favicon.ico        @Lessapp-ond
+/public/icon.png           @Lessapp-ond
+/public/icon.svg           @Lessapp-ond
+/public/icon-light-32x32.png @Lessapp-ond
+/public/icon-dark-32x32.png  @Lessapp-ond
+/public/apple-icon.png     @Lessapp-ond
+/app/icon.png              @Lessapp-ond
+/app/apple-icon.png        @Lessapp-ond
